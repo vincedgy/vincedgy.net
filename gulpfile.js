@@ -123,11 +123,11 @@ gulp.task('scripts', function () {
         .pipe(ngAnnotate())
          .on('error', gutil.log)
          .on('error', gutil.beep)
-         /*.pipe(uglify({
+         .pipe(uglify({
          global_defs: {
          DEBUG: false
          }
-         }))*/
+         }))
          .pipe(concat('main.js'))
          .pipe(rename({
          suffix: '.min'
