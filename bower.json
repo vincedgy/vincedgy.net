@@ -1,0 +1,34 @@
+{
+  "name": "vincedgy-personnal",
+  "version": "0.0.1",
+  "description": "VinceDgy personnal page",
+  "authors": [
+    "VinceDgy"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/vincedgy",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": null,
+    "angular": "~1.4.2",
+    "angular-animate": "~1.4.2",
+    "angular-sanitize": "~1.3.8",
+    "angular-ui-router": "~0.2.15",
+    "jquery": "~1.11.0",
+    "jquery.easing": "~1.3.1",
+    "jquery.smartresize": "*",
+    "jquery.sidr.min.js": "*",
+    "isotope": "~2.2.1",
+    "elastislide": "*",
+    "prettyphoto": "*",
+    "klass": "~1.3.1",
+    "photoswipe": "~4.1.0",
+    "ResponsiveSlides": "*"
+  }
+}

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en-US"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en-US"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <!-- Basic Page Needs
+        ================================================== -->
+  <meta charset="UTF-8">
+  <title>Vincent Dagoury's Portfolio</title>
+  <meta name="description" content="Vincent Dagoury's Portfolio">
+  <meta name="author" content="VinceDgy">
+
+  <!-- Mobile Specific Metas
+        ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Favicons
+        ================================================== -->
+  <link rel='shortcut icon' href='img/favicon.ico'>
+
+  <!--  API CSS
+    ================================================== -->
+  <!--link rel="stylesheet" href="./api/jquery.sidr.dark.css" type="text/css" media="all"-->
+
+  <!-- CSS
+        ================================================== -->
+  <link rel="stylesheet" href="./css/main.min.css" type="text/css" media="all">
+
+
+  <!-- Google Fonts
+        ================================================== -->
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900,300italic,400italic,900italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="fullwidth boxed " data-device="" data-maxcols="" ng-app="portfolio">
+  <div id="top"></div>
+  <div data-role="header" id="header" ng-controller="root">
+    <div class="container wrap text-center">
+      <span class="glyphicons leaf">{{title}}
+        <i></i></span>
+    </div>
+    <a href="#sidr" id="menutrigger" class="pull-left btn icon transparent" title="Click and open the menu">
+      <span class="glyphicons justify"><i></i></span>
+    </a>
+    <span class="clear"></span>
+  </div>
+  <!-- /#header -->
+
+  <div id="sidr" class="hidden">
+    <h3>Navigation</h3>
+    <a href="#" class="navclose">
+      <span class="glyphicons remove"><i></i></span>
+    </a>
+    <ul>
+      <li>
+        <a href="#home">
+          <span class="glyphicons home"><i></i></span>Home</a>
+      </li>
+      <li>
+        <a href="#services">
+          <span class="glyphicons ok_2"><i></i></span>I like</a>
+      </li>
+      <li>
+        <a href="#portfolio">
+          <span class="glyphicons briefcase"><i></i></span>Hot Spots</a>
+      </li>
+      <li>
+        <a href="#download">
+          <span class="glyphicons paperclip"><i></i></span>My Resumé</a>
+      </li>
+      <li>
+        <a href="#social">
+          <span class="glyphicons heart"><i></i></span>My social network</a>
+      </li>
+      <li>
+        <a href="#contact">
+          <span class="glyphicons envelope"><i></i></span>Contact me</a>
+      </li>
+    </ul>
+
+  </div>
+
+  <div id="home" class="sugar-container">
+
+    <div class="container wrap">
+
+      <div class="row">
+
+        <div class="col dimfull text-center" id="animation">
+          <!--span class="glyphicons leaf" id="ccimage"><i>&nbsp;</i></span-->
+          <span id="hello" class="top-title">Hello, my name is</span>
+          <span id="ccname" class="top-title">Vincent&nbsp;Dagoury</span>
+          <span id="iam" class="">I am an</span>
+          <span id="ccfunction" class="">IT Team Leader and senior Web developer</span>
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row  -->
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /#home -->
+
+  <div id="services" class="cream-container parallax" data-speed="12" data-offsetY="-150">
+    <div class="icon-container">
+      <div>
+        <span class="glyphicons ok_2"><i></i></span>
+      </div>
+    </div>
+
+    <div class="container wrap">
+
+      <div class="row">
+
+        <div class="col dimfull text-center">
+
+          <h2>What do I like to do ? .... Innovate !</h2>
+
+          <p class="intro">I develop solutions for better user experiences,
+            <br>amaze my pairs
+            <br>and lead successfull projects.</p>
+
+          <div class="row services">
+
+            <div class="col dim1third">
+              <h3>GitHub source projects</h3>
+
+              <p>I've been publishing my project sources and research for years now. Check out my repo ! </p>
+            </div>
+
+            <div class="col dim1third">
+              <h3>AngularJS addict</h3>
+
+              <p>Since the early beginning of AngularJS, I've spent night and day on my keyboards trying and learning. The handsome framework has given me the oppotunity to learn JavaScript in depth.
+              </p>
+
+            </div>
+
+            <div class="col dim1third">
+              <h3>Full Stack Java and more</h3>
+
+              <p>Even if my first language was the BASIC language, I threw myself into Java from the start of my career, struggling with complex objects API and built fantastic joyful pieces of code.
+              </p>
+            </div>
+
+            <span class="clear"></span>
+            <span class="spacer"></span>
+
+            <div class="col dim1third">
+              <h3>Solution Architect</h3>
+
+              <p>My multiple experiences have brought me multiple skills in system and software architecture in many varied contexts.</p>
+            </div>
+
+            <div class="col dim1third">
+              <h3>Business Intelligence</h3>
+
+              <p>I've built up many data models and systems for datawarehouses and datamarts, using strong ETL such as IBM InfoSphere DataStage(c) or Talend(c) and made data clear to people !</p>
+            </div>
+
+            <div class="col dim1third">
+              <h3>Senior Unix/Linux engineer and super scripter</h3>
+
+              <p>I've liked VI for decades ! Can you believe that ? Every Linux distribution needs to fall in my hands. Bash/perl/awk and lots more are my day to day toys.</p>
+            </div>
+
+
+          </div>
+          <!-- /.row  -->
+
+
+        </div>
+        <!-- /.col -->
+
+      </div>
+      <!-- /.row  -->
+
+    </div>
+    <!-- /.container -->
+
+  </div>
+  <!-- /#services -->
+
+
+  <div id="portfolio" class="coffee-container parallax" data-speed="22" data-offsetY="-150">
+
+    <div class="icon-container">
+      <div>
+        <span class="glyphicons briefcase"><i></i></span>
+      </div>
+    </div>
+
+    <div class="container wrap">
+
+      <div class="row">
+
+        <div class="col text-center">
+
+          <h2>My hot spots</h2>
+
+          <p class="intro">These are few links of mine</p>
+
+          <ul data-target="o-container" class="btn-nav o-filters centered">
+            <li class="active"><a data-filter="*" href="#">All</a></li>
+            <li><a data-filter=".o-filterable-cat1" href="#">Projects</a></li>
+            <li><a data-filter=".o-filterable-cat2" href="#">Music and stuffs</a></li>
+          </ul>
+
+          <div class="row dimfull o-items-container o-index" data-cols="3" id="o-container">
+            <div class="o-item o-filterable-cat1" data-cols="1" id="item-1">
+              <a href="https://plus.google.com/+VinceDgy">TEST
+                <img src="http://ssl.gstatic.com/images/branding/google_plus/2x/gplus_word_108x30dp.png" alt="Google+"/>
+              </a>
+              <!-- /.inner-hentry -->
+            </div>
+            <!-- /.col .o-item -->
+
+            <div class="o-item o-filterable-cat2" data-cols="1" id="item-2">
+              <a href='https://www.youtube.com/user/DagouryVincent/videos'>
+                <img src="https://www.youtube.com/yt/brand/media/image/yt-brand-flattype-1.png" alt="YouTube"/>
+              </a>
+            </div>
+            <!-- /.inner-hentry -->
+
+            <div class="o-item o-filterable-cat1" data-cols="1" id="item-3">
+              <a href="https://github.com/vincedgy">
+                <img src="http://cdn.flaticon.com/png/256/3641.png" alt="GitHub"/>
+              </a>
+              <!-- /.inner-hentry -->
+            </div>
+            <!-- /.col .o-item -->
+
+          </div>
+          <!-- /.col .o-item -->
+
+
+        </div>
+        <!-- /.o-items-container -->
+
+      </div>
+      <!-- /.col -->
+
+    </div>
+    <!-- /.row  -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- /#portfolio -->
+
+  <div id="download" class="cream-container parallax" data-speed="18" data-offsetY="-150">
+
+    <div class="icon-container">
+      <div>
+        <span class="glyphicons paperclip"><i></i></span>
+      </div>
+    </div>
+
+    <div class="container wrap">
+
+      <div class="row">
+
+        <div class="col dimfull text-center">
+
+          <h2>My resumé</h2>
+
+          <div class="more">
+            <a href="https://fr.linkedin.com/in/vincentdagoury" class="btn action-button shadow animate blue">
+              <span class="glyphicons linked_in"><i></i></span>LinkedIn</a>
+
+          </div>
+          <p class="intro">Former and present projects, my experience and skills.</p>
+
+        </div>
+        <!-- /.col -->
+
+      </div>
+      <!-- /.row  -->
+
+    </div>
+    <!-- /.container -->
+
+  </div>
+  <!-- /#download -->
+
+  <div id="social" class="coffee-container parallax" data-speed="24" data-offsetY="-150">
+
+    <div class="icon-container">
+      <div>
+        <span class="glyphicons heart"><i></i></span>
+      </div>
+    </div>
+
+    <div class="container wrap">
+
+      <div class="row">
+
+        <div class="col dimfull text-center">
+
+          <h2>My Social network</h2>
+
+          <div class="more">
+            <!--a href="#" class="btn action-button shadow animate blue"><span class="glyphicons twitter"><i></i></span>Twitter</a-->
+            <a href="http://www.twitter.com/vincedgy" class="btn action-button shadow animate blue">
+              <span class="glyphicons twitter"><i></i></span>Twitter</a>
+            <a href="https://fr.linkedin.com/in/vincentdagoury" class="btn action-button shadow animate blue">
+              <span class="glyphicons linked_in"><i></i></span>LinkedIn</a>
+            <a href="http://www.facebook.com/vincedgy" class="btn action-button shadow animate blue">
+              <span class="glyphicons facebook"><i></i></span>Facebook</a>
+          </div>
+          <p class="intro">Let us be friend !</p>
+
+        </div>
+        <!-- /.col -->
+
+      </div>
+      <!-- /.row  -->
+
+    </div>
+    <!-- /.container -->
+
+  </div>
+  <!-- /#social -->
+
+  <div id="contact" class="cream-container parallax" data-speed="32" data-offsetY="-150">
+
+    <div class="icon-container">
+      <div>
+        <span class="glyphicons envelope"><i></i></span>
+      </div>
+    </div>
+
+    <div class="container wrap">
+
+      <div class="row">
+
+        <div class="col dimfull text-center">
+
+          <h2>Contact me</h2>
+
+          <!--p class="intro">Any questions ? Email me ! </p-->
+
+          <form id="contact-form" method="post" action="#contact-form" class="text-left" data-form-action="/email">
+
+            <div class="email-confirmation hidden">
+              <span class="glyphicons ok_2"><i></i></span> Email Success
+            </div>
+            <div class="email-error hidden">
+              <span class="glyphicons remove_2"><i></i></span> Email Error
+            </div>
+
+            <input type="hidden" name="emailto" value="vincent.dagoury@gmail.com">
+            <input type="hidden" name="websitename" value="portfolio-vincedgy">
+
+            <p>
+              <label for="formName">Name</label>
+              <input type="text" class="mandatory" placeholder="Your name" id="formName" name="formName" value="">
+              <span class="error-message hidden">
+                <span class="glyphicons ban"><i></i></span> Missing Name</span>
+            </p>
+
+            <p>
+              <label for="formEmail">Email</label>
+              <input type="text" class="mandatory" placeholder="Your email" id="formEmail" name="formEmail" value="">
+              <span class="error-message hidden">
+                <span class="glyphicons ban"><i></i></span> Missing or invalid Email</span>
+            </p>
+
+            <p>
+              <label for="formSubject">Subject</label>
+              <input type="text" placeholder="Email Subject" id="formSubject" name="formSubject" value="">
+            </p>
+
+            <p>
+              <label for="formMessage">Message</label>
+              <textarea rows="6" class="mandatory" placeholder="Your message" id="formMessage" name="formMessage"></textarea>
+              <span class="error-message hidden">
+                <span class="glyphicons ban"><i></i></span> Missing Mail Message</span>
+            </p>
+            <span class="clear"></span>
+
+            <p>
+              <button type="submit" class="btn action-button shadow animate blue" name="form-submit">Submit</button>
+            </p>
+
+          </form>
+
+
+        </div>
+        <!-- /.col -->
+
+      </div>
+      <!-- /.row  -->
+
+    </div>
+    <!-- /.container -->
+
+  </div>
+  <!-- /#contact -->
+
+  <div id="copyright">
+
+    <div class="container wrap">
+
+      <div class="row">
+
+        <div class="col dimfull text-center">
+
+          <p>&copy; 2015
+            <em>Vincent Dagoury</em>.
+            <!-- Theme design
+                                    Theme design by <a href="http://themeforest.net/user/ocholabs/portfolio?ref=ocholabs">Ocholabs</a></p> -->
+
+
+        </div>
+        <!-- /.col -->
+
+      </div>
+      <!-- /.row  -->
+
+    </div>
+    <!-- /.container -->
+
+  </div>
+  <!-- /#copyright -->
+
+  <!-- overlay -->
+  <div style="display: none;" class="overlay">
+  </div>
+
+
+  <a style="display: none;" href="#" id="scrolltop" title="Top" class="btn action-scroll-up shadow animate blue">
+    <span class="glyphicons up_arrow"><i></i></span>
+  </a>
+  <!-- /#scrolltop-->
+
+  <!-- End Document
+================================================== -->
+
+  <script type="text/javascript" src="components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="components/jquery.easing/js/jquery.easing.min.js"></script>
+
+  <script type='text/javascript' src="components/isotope/dist/isotope.pkgd.min.js"></script>
+  <!-- <script type="text/javascript" src="api/jquery.isotope.min.js"></script> -->
+
+  <script type="text/javascript" src="api/jquery.sidr.min.js"></script>
+
+  <script type="text/javascript" src="components/angular/angular.min.js"></script>
+
+  <script type="text/javascript" src="js/main.min.js"></script>
+
+  <!--script>
+(function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+ga('create', 'UA-43780936-1', 'anna-livia.com');
+ga('send', 'pageview');
+
+</script-->
+
+</body>
+
+</html>
